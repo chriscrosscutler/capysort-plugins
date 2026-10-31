@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "capysort",
+  "version": "1.0.0",
+  "description": "Organize your Mac's Photos library, folders, Messages and apps by asking your assistant. Capysort does the work on your Mac; the assistant proposes changes and you approve each one in the app.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Capysort",
+        "shortDescription": "Tidy Photos on your Mac",
+        "longDescription": "Capysort finds similar shots and duplicates, sorts screenshots, and tidies folders, Messages and apps on your Mac. ChatGPT reads a summary of what Capysort found and proposes changes; nothing changes until you approve it in Capysort, and everything can be undone. The Hidden album is never read, and message text never leaves the Mac.",
+        "developerName": "Chris Cutler",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://capysort.com",
+        "supportURL": "https://capysort.com/#questions",
+        "privacyPolicyURL": "https://capysort.com/privacy",
+        "termsOfServiceURL": "https://capysort.com/terms",
+        "defaultPrompt": [
+          "Use Capysort to find duplicate photos I can clear out.",
+          "Use Capysort to sort my screenshots and file a plan for me to approve."
+        ],
+        "brandColor": "#F4B183",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

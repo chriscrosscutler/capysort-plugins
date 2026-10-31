@@ -1,0 +1,21 @@
+{
+  "name": "capysort",
+  "displayName": "Capysort",
+  "version": "1.0.0",
+  "description": "Organize your Mac's Photos library, folders, Messages and apps by asking your assistant. Capysort does the work on your Mac; the assistant proposes changes and you approve each one in the app.",
+  "author": {
+    "name": "Chris Cutler",
+    "url": "https://capysort.com"
+  },
+  "homepage": "https://capysort.com",
+  "license": "MIT",
+  "keywords": [
+    "photos",
+    "mac",
+    "organize",
+    "duplicates",
+    "screenshots",
+    "privacy"
+  ],
+  "icon": "./assets/icon.png"
+}

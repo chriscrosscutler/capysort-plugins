@@ -1,0 +1,17 @@
+{
+  "name": "capysort",
+  "owner": {
+    "name": "Chris Cutler",
+    "url": "https://capysort.com"
+  },
+  "metadata": {
+    "description": "Capysort's plugin: organize your Mac's Photos, folders, Messages and apps with Claude."
+  },
+  "plugins": [
+    {
+      "name": "capysort",
+      "source": "./claude/capysort",
+      "description": "Organize your Mac's Photos library, folders, Messages and apps by asking your assistant. Capysort does the work on your Mac; the assistant proposes changes and you approve each one in the app."
+    }
+  ]
+}
